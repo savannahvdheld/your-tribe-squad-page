@@ -1,5 +1,7 @@
 
 
+
+/*start visitekaartjes css*/
 .mixed ul{
     display: grid;
     position: relative;
@@ -22,7 +24,7 @@
     border-radius: 4%;
 
 }
-.show li{
+.reposition li{
     grid-row: 1;
     grid-column: 1;
     transition: 0.8s;
