@@ -1,0 +1,42 @@
+
+
+.mixed ul{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    transition: 0.5s;
+}
+
+.visitcards li{
+    display: grid;
+    grid-template-rows: 10% 1fr;
+    grid-template-columns: 1fr;
+    width: 60%;
+    background-color: #FBB3D7;
+    color: #C4160E;
+    padding: 2vw;
+    text-align: center;
+    transition: 0.8s;
+    border: 0.2em solid #716FB7;
+    border-radius: 4%;
+
+}
+.show li{
+    grid-row: 1;
+    grid-column: 1;
+    transition: 0.8s;
+}
+.visitcards li:nth-of-type(2){
+    grid-column: 4 / 6;
+    grid-row-start: 1; 
+    width: 80%;   
+}
+
+.visitcards img{
+    height: auto;
+    width: 100%;
+    align-self: center;
+    border: 0.2em solid #716FB7;
+    border-radius: 4%;
+}
