@@ -10,7 +10,9 @@ gap: 4 px;
 .popup img{
     width: 50%;
     height: auto;
-    position:center;
+    position: relative;
+    align-self: center;
+ 
 
 }
 
@@ -18,10 +20,16 @@ gap: 4 px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
+padding: 5%;
+}
+.popup li{
+    position: relative;
+    align-items: center;
 }
 
 .popup li:nth-of-type(1){
     grid-column: 1 / 5;
+    background-color:#efb6d4;
 }
 
 
