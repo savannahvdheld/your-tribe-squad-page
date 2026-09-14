@@ -1,4 +1,16 @@
+body {
+    background-color: #B4E0F9; /* Lichtblauw */
+}
 
+.popup {
+display: grid;
+grid-template-columns: 2fr, 2fr 2fr;
+gap: 4 px;
+}
+.popup img{
+    width: 80%;
+    height: auto;
+}
 
 
 /*start visitekaartjes css*/
