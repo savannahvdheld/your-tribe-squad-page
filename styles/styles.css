@@ -8,8 +8,20 @@ grid-template-columns: 2fr, 2fr 2fr;
 gap: 4 px;
 }
 .popup img{
-    width: 80%;
+    width: 50%;
     height: auto;
+    position:center;
+
+}
+
+.popup ul{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+.popup li:nth-of-type(1){
+    grid-column: 1 / 5;
 }
 
 
