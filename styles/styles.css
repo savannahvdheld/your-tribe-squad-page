@@ -17,10 +17,12 @@ gap: 4 px;
 .popup img{
     width: 50%;
     height: auto;
+    object-fit: cover;
     margin-top: 20px;
     align-self: center;
     justify-self: center;
     padding: 5%;
+    border-radius: 4%;
 
 }
 
@@ -35,6 +37,7 @@ padding: 5%;
     grid-template-rows: 90% 10%;
     position: relative;
     align-items: center;
+    
 }
 
 .popup li:nth-of-type(1){
