@@ -1,4 +1,51 @@
+body {
+    background-color: #B4E0F9; /* Lichtblauw */
+}
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
 
+h3 {
+    text-align: center;
+}
+.popup {
+display: grid;
+grid-template-columns: 2fr, 2fr 2fr;
+gap: 4 px;
+}
+.popup img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 20px;
+    align-self: center;
+    justify-self: center;
+    padding: 5%;
+    border-radius: 4%;
+
+}
+
+.popup ul{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+padding: 5%;
+}
+.popup li{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    position: relative;
+    align-items: center;
+    
+}
+
+.popup li:nth-of-type(1){
+    grid-column: 1 / 5;
+    background-color:#efb6d4;
+   border-radius: 4%;
+
+}
 
 
 /*start visitekaartjes css*/
