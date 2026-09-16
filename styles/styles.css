@@ -15,7 +15,7 @@ grid-template-columns: 2fr, 2fr 2fr;
 gap: 4 px;
 }
 .popup img{
-    width: 50%;
+    width: 80%;
     height: auto;
     object-fit: cover;
     justify-self: center;
@@ -27,7 +27,7 @@ gap: 4 px;
 .popup ul{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
+grid-template-rows: 10% 1fr 1fr;
 padding: 5%;
 }
 .popup li{
@@ -35,16 +35,21 @@ padding: 5%;
     grid-template-rows: 90% 10%;
     position: relative;
     align-items: center;
+    grid-row-start: 3
     
 }
 
 .popup li:nth-of-type(1){
     grid-column: 1 / 5;
+    grid-row-start:2;
     background-color:#efb6d4;
    border-radius: 4%;
 
 }
+.popup li:nth-of-type(1) img{
 
+    width: 50%;
+}
 
 /*start visitekaartjes css*/
 .mixed ul{
