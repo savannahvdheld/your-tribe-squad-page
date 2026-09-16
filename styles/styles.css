@@ -52,14 +52,15 @@ padding: 5%;
 }
 
 /*start visitekaartjes css*/
+
 .mixed ul{
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 5%;
-    transition: 0.5s;
     
 }
+
 
 .visitcards img {
     grid-column-start: 2;
@@ -103,7 +104,6 @@ padding: 5%;
     color: #C4160E;
     text-align: center;
     text-decoration: none;
-    transition: 0.8s;
     border: 0.2em solid #716FB7;
     border-radius: 4%;
     box-shadow: 0.4vw 0.4vw #716FB7;
