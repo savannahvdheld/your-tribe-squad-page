@@ -31,6 +31,7 @@ gap: 4 px;
     justify-self: center;
     margin: 5%;
     border-radius: 4%;
+    border: 0.2em solid #716FB7;
 
 }
 
@@ -89,17 +90,20 @@ padding: 5%;
     grid-column-start: 1;
     grid-row-start: 1;
     border: 0;
-    width: 50%;
-    left: 5%;
+    width: 44%;
+    left: -13%;
     align-self: center;
+    border: 0;
 }
+/*hier staat de styling bovenaan de popup zelf*/
 
 .popup .kruis{
 position: relative;
     grid-column-start: 4;
     grid-row-start: 1;
-    width: 30%;
+    width: 20%;
     align-self: center;
+    border: 0;
 }
 
 .popup .Balkje{
@@ -110,6 +114,7 @@ position: relative;
     left: 151%;
     bottom: -40%;
     align-self: center;
+    border: 0;
 }
 /*styling tekst voor onderaan de locatie foto's*/
 .img p {
