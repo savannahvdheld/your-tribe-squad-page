@@ -10,7 +10,9 @@ voor het visitekaartje aspect van de website hebben we gebruik gemaakt van een g
 
 # font
 alle gebruikte fonts:
--
+
+-Coral Pixels
+https://fonts.adobe.com/fonts/coral-pixels
 
 # Bronnen
 Link naar onze [CANVAS](https://www.figma.com/design/waCTQ2Q2SnXZo4gVy9TbvM/Squad-Page?node-id=0-1&t=I1Mf58e5t1360rsr-1)
