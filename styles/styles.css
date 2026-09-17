@@ -14,6 +14,7 @@ display: grid;
 grid-template-columns: 2fr, 2fr 2fr;
 gap: 4 px;
 }
+
 .popup img{
     width: 80%;
     height: auto;
@@ -29,6 +30,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 10% 1fr 1fr;
 padding: 5%;
+
 }
 .popup li{
     display: grid;
@@ -43,7 +45,10 @@ padding: 5%;
     grid-column: 1 / 5;
     grid-row-start:2;
     background-color:#efb6d4;
-   border-radius: 4%;
+    box-shadow: 0.4vw 0.4vw #716FB7;
+    border: 0.2em solid #716FB7;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
 
 }
 
@@ -51,6 +56,42 @@ padding: 5%;
 
     width: 50%;
 }
+
+.popup em
+ {
+    grid-column: 1 / -1;
+    background-color: #FFE4F2;
+    grid-row: 1;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border: 0.2em solid #716FB7;
+    box-shadow: 0.4vw 0.4vw #716FB7;
+
+ }
+
+ .popup em {
+    color: #C4160E;
+    text-align: center;
+ }
+
+ .popup .knoppen {
+    position: relative;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    border: 0;
+    width: 50%;
+    left: 5%;
+    align-self: center;
+}
+
+.popup .kruis{
+position: relative;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    width: 30%;
+    align-self: center;
+}
+
 
 /*start visitekaartjes css*/
 
