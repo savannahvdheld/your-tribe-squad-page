@@ -1,3 +1,6 @@
+
+/*hier staat de code waarbij je met een klik op de kleine afbeeldingen kan switchen naar andere foto's*/
+
 let bigImage = document.querySelector(".big img");
 let thumbs = document.querySelectorAll(".thumb");
 
@@ -8,10 +11,4 @@ function swapImage(event) {
 
 thumbs.forEach(function (thumb) {
     thumb.addEventListener("click", swapImage);
-});
-
-let backBtn = document.querySelector("#backBtn");
-
-backBtn.addEventListener("click", function () {
-    bigImage.src = "assets/Campus FDND.jpeg";
 });

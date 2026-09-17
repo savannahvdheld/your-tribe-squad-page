@@ -1,5 +1,10 @@
+
+
+   /*start styling */
 body {
     background-color: #B4E0F9; /* Lichtblauw */
+
+    /*start styling hoofdtekst*/
 }
 h2 {
     font-size: 2em;
@@ -9,13 +14,16 @@ h2 {
 h3 {
     text-align: center;
     font-size: 2;
+
+    /*start popup styling */
+
 }
 .popup {
 display: grid;
 grid-template-columns: 2fr, 2fr 2fr;
 gap: 4 px;
 }
-
+  /* styling van de img in de popup */
 .popup img{
     width: 80%;
     height: auto;
@@ -74,6 +82,7 @@ padding: 5%;
     color: #C4160E;
     text-align: center;
  }
+/*styling van het kruisje, knopjes en balkje in de popup. */
 
  .popup .knoppen {
     position: relative;
@@ -102,12 +111,13 @@ position: relative;
     bottom: -40%;
     align-self: center;
 }
-
+/*styling tekst voor onderaan de locatie foto's*/
 .img p {
 position: relative;
 justify-self:center;
 grid-row: 2;
-bottom: 290%
+bottom: 290%;
+font-style: italic;
 }
 
 /*start visitekaartjes css*/
