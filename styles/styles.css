@@ -1,6 +1,12 @@
 
 
    /*start styling */
+
+@font-face {
+    font-family: "Coral Pixels";
+    src: url("../assets/coral-pixels.regular.ttf") format("truetype");
+}
+
 body {
     background-color: #B4E0F9; /* Lichtblauw */
 
@@ -53,9 +59,10 @@ header {
     transform: translateY(-10px);
 }
 
-.toon-locaties {
+.intro-iconen .toon-locaties {
     transform: translateY(10px);
-    width: 7em;
+    width: 9em;
+    animation-delay: -2.5s;
 }
 
 @keyframes zweven {
@@ -86,8 +93,11 @@ header {
     animation-delay: -1.5s;
 }
 
-.toon-locaties {
-    animation-delay: -2.5s;
+.locaties-knop {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 h2 {
@@ -103,105 +113,112 @@ h3 {
 
 }
 .popup {
-display: grid;
-grid-template-columns: 2fr, 2fr 2fr;
-gap: 4 px;
-}
-  /* styling van de img in de popup */
-.popup img{
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     width: 80%;
-    height: auto;
-    object-fit: cover;
-    justify-self: center;
-    margin: 5%;
-    border-radius: 4%;
+    max-height: 80vh;
 
+    background-color: #efb6d4;
+    border: 0.2em solid #716FB7;
+    border-radius: 1em;
+    box-shadow: 0.6vw 0.6vw #716FB7;
+
+    overflow-y: auto;
+    z-index: 1000;
 }
 
-.popup ul{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 10% 1fr 1fr;
-padding: 5%;
-
+.popup.open {
+    display: block;
 }
-.popup li{
+
+.grote-locatie {
     display: grid;
-    grid-template-rows: 90% 10%;
-    position: relative;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3em;
     align-items: center;
-    grid-row-start: 3
-    
+    padding: 2em 3em;
 }
 
-.popup li:nth-of-type(1){
-    grid-column: 1 / 5;
-    grid-row-start:2;
-    background-color:#efb6d4;
-    box-shadow: 0.4vw 0.4vw #716FB7;
-    border: 0.2em solid #716FB7;
-    border-bottom-left-radius: 4%;
-    border-bottom-right-radius: 4%;
-
+.grote-locatie .big-img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
 }
 
-.popup li:nth-of-type(1) img{
-
-    width: 50%;
+.locatie-info {
+    align-self: start;
+    padding-top: 2em;
 }
 
-.popup em
- {
-    grid-column: 1 / -1;
-    background-color: #FFE4F2;
-    grid-row: 1;
-    border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
-    border: 0.2em solid #716FB7;
-    box-shadow: 0.4vw 0.4vw #716FB7;
-
- }
-
- .popup em {
-    color: #C4160E;
+.locatie-naam {
+    margin: 0 0 1em 0;
     text-align: center;
- }
-/*styling van het kruisje, knopjes en balkje in de popup. */
-
- .popup .knoppen {
-    position: relative;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    border: 0;
-    width: 50%;
-    left: 5%;
-    align-self: center;
 }
 
-.popup .kruis{
-position: relative;
-    grid-column-start: 4;
-    grid-row-start: 1;
-    width: 30%;
-    align-self: center;
+.locatie-beschrijving {
+    margin: 0;
+    line-height: 1.4;
 }
 
-.popup .Balkje{
-    position: relative;
-    grid-column-start: 1;
-    grid-row: 2;
-    width: 200%;
-    left: 151%;
-    bottom: -40%;
-    align-self: center;
+.popup-balk {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+
+    background-color: #FFE4F2;
+    border-bottom: 0.2em solid #716FB7;
+    padding: 1em;
 }
-/*styling tekst voor onderaan de locatie foto's*/
-.img p {
-position: relative;
-justify-self:center;
-grid-row: 2;
-bottom: 290%;
-font-style: italic;
+
+.popup-balk h2 {
+    margin: 0;
+    text-align: center;
+    color: #C4160E;
+}
+
+.popup-balk h2,
+.locatie-naam,
+.locaties p {
+    font-family: "Coral Pixels", sans-serif;
+}
+
+.popup-balk .knoppen {
+    width: 5em;
+    margin: 0;
+    justify-self: start;
+}
+
+.popup-balk .kruis {
+    width: 3em;
+    margin: 0;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.locaties {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+
+    list-style: none;
+    padding: 2em;
+    margin: 0;
+}
+
+.locaties li {
+    text-align: center;
+}
+
+.locaties .thumb {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 0.5em;
 }
 
 /*start visitekaartjes css*/
@@ -241,6 +258,7 @@ font-style: italic;
     margin-bottom: 10%;
 }
 .visitcards em{
+    font-family: "Coral Pixels", sans-serif;
     grid-column: 1 / -1;
     background-color: #FFE4F2;
     grid-row: 1;

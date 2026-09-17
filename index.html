@@ -17,34 +17,75 @@
         <img class="music" src="assets/music.svg" alt="">
         <img class="cd" src="assets/cd.svg" alt="">
         <img class="calendar" src="assets/calendar.svg" alt="">
-        <img class="toon-locaties" src="assets/toonlocaties.svg" alt="Toon locaties">
+        <button class="locaties-knop">
+    <img class="toon-locaties" src="assets/toonlocaties.svg" alt="Toon locaties">
+</button>
     </div>
  </header>
 
-    <article class="popup" >
-        <h2>FDND</h2>
-        <h3>Locaties Amstel Campus</h3>
-        <!-- hier staan de fotos van de locaties op de Amstel Campus.
-         Daarnaast staat er een opzet naast voor Javascript zodat het veranderen met de fotos met een klik goed werkt.-->
-<div class="big img">
-<ul>
-    <li><img src="assets/Campus FDND.jpeg" class="thumb" data-target="Campus FDND.jpeg" alt=""></li>
-    <em></em>
-    <img class="knoppen" src="assets/ronde_knoppen.svg">
-    <img class="kruis" src="assets/kruis.svg">
-    <img class ="Balkje" src="assets/Balkje.svg">
-    <li><img src="assets/kohstamhuis hva.jpg" class="thumb" data-target="kohstamhuis hva.jpg" alt="">  <p>Kohstamhuis</p></li>
-  
-    <li><img src="assets/Jakobahuis 13.jpeg" class="thumb" data-target="Jakobahuis 13.jpeg" alt=""><p>Jakobahuis 13e verdieping</p></li>
-    
-    <li><img src="assets/cafe wibaut.jpg" class="thumb" data-target="cafe wibaut.jpg" alt=""><p>Wibauthuis cafe</p></li>
-    
-   <li> <img src="assets/cafe fest wibaut.jpg" class="thumb" data-target="cafe fest wibaut.jpg" alt=""><p>Cafe fest</p></li>
-   
-</ul>
+    <article class="popup">
 
-            
-    </article>
+    <div class="popup-balk">
+        <img class="knoppen" src="assets/ronde_knoppen.svg" alt="">
+        <h2>Locaties Amstel Campus</h2>
+        <img class="kruis" src="assets/kruis.svg" alt="Sluiten">
+    </div>
+
+    <div class="grote-locatie">
+
+    <img class="big-img" src="assets/Campus FDND.jpeg" alt="FDND">
+
+    <div class="locatie-info">
+        <h3 class="locatie-naam">Amstel Campus</h3>
+
+        <p class="locatie-beschrijving">
+            De Amstel Campus is het hart van de HvA, met verschillende onderwijsgebouwen, studieplekken en ontmoetingsplekken rondom de Wibautstraat.
+        </p>
+    </div>
+
+    <ul class="locaties">
+        <li>
+            <img src="assets/kohstamhuis hva.jpg"
+                 class="thumb"
+                 data-target="kohstamhuis hva.jpg"
+                 data-naam="Kohstamhuis"
+                 data-beschrijving="Een fijne plek om te studeren of even tot rust te komen. Je vindt hier de bibliotheek, een stilteruimte, verschillende goede studieplekken en je kunt er eten en drinken halen. Neem ook eens de lange trap omhoog voor meer zitplekken."
+                 alt="Kohstamhuis">
+            <p>Kohstamhuis</p>
+        </li>
+
+        <li>
+            <img src="assets/Jakobahuis 13.jpeg"
+                 class="thumb"
+                 data-target="Jakobahuis 13.jpeg"
+                 data-naam="Jakobahuis 13e verdieping"
+                 data-beschrijving="Vanaf de 13e verdieping van het Jakobahuis heb je een prachtig uitzicht over Amsterdam. Leuk om even te verkennen! Neem de lift helemaal naar boven en geniet van het uitzicht."
+                 alt="Jakobahuis">
+            <p>Jakobahuis 13e verdieping</p>
+        </li>
+
+        <li>
+            <img src="assets/cafe wibaut.jpg"
+                 class="thumb"
+                 data-target="cafe wibaut.jpg"
+                 data-naam="Wibauthuis café"
+                 data-beschrijving="In het Wibauthuis vind je een gezellige kantine met eten uit verschillende keukens, van Koreaans en Turks tot Italiaans. Je kunt er ook lekkere broodjes halen en rustig zitten. Zin in koffie? Er is ook een café waar je terechtkunt voor een lekkere kop koffie."
+                 alt="Wibauthuis café">
+            <p>Wibauthuis café</p>
+        </li>
+
+        <li>
+            <img src="assets/cafe fest wibaut.jpg"
+                 class="thumb"
+                 data-target="cafe fest wibaut.jpg"
+                 data-naam="Café Fest"
+                 data-beschrijving="Café Fest is een gezellige plek op de Amstelcampus om even te ontspannen na of tussen je lessen. Je kunt er samen met vrienden of medestudenten zitten, iets eten of drinken en gezellig bijkletsen."
+                 alt="Café Fest">
+            <p>Café Fest</p>
+        </li>
+    </ul>
+
+</article>
     <!-- heb een section toegevoegd met de class mixed daarin zet ik mijn unordered list met een class visitcards zodat ik die makkelijk en overzichtelijk kan aan roepen
     daarnaast gebruik ik inplaats van li(list items) een a element zodat de hele lijst een link is per kaartje om naar hun websites te gaan -->
     <section class="mixed">
@@ -148,7 +189,7 @@
                 <img class="kruis" src="assets/kruis.svg">
                 <img src="assets/lou.png"></a>
 
-                <a href="https://lyannebos.github.io/your-tribe-profile-card/"><em>Layenne.jpg</em>
+                <a href="https://lyannebos.github.io/your-tribe-profile-card/"><em>Lyanne.jpg</em>
                 <img class="knoppen" src="assets/ronde_knoppen.svg">
                 <img class="kruis" src="assets/kruis.svg">
                 <img src="assets/lyanne.png"></a>
