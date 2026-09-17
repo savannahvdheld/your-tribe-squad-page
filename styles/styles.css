@@ -113,7 +113,7 @@ gap: 4 px;
     height: auto;
     object-fit: cover;
     justify-self: center;
-    padding: 5%;
+    margin: 5%;
     border-radius: 4%;
 
 }
