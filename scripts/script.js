@@ -9,3 +9,9 @@ function swapImage(event) {
 thumbs.forEach(function (thumb) {
     thumb.addEventListener("click", swapImage);
 });
+
+let backBtn = document.querySelector("#backBtn");
+
+backBtn.addEventListener("click", function () {
+    bigImage.src = "assets/Campus FDND.jpeg";
+});
