@@ -105,7 +105,9 @@ position: relative;
 
 .img p {
 position: relative;
- justify-self: start;
+justify-self:center;
+grid-row: 2;
+bottom: 290%
 }
 
 /*start visitekaartjes css*/
