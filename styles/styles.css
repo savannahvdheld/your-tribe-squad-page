@@ -423,3 +423,85 @@ en de 2de kaart/nth-of-type(2) wil ik aan het einde van mijn eerste row zetten d
 footer{
     margin-bottom: 65%;
 }
+
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .welkom {
+        width: 80%;
+    }
+
+    .intro-iconen {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .intro-iconen img {
+        width: 4em;
+    }
+
+    .intro-iconen .toon-locaties {
+        width: 6em;
+    }
+
+    .popup {
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.popup-balk {
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.popup-balk h2 {
+    font-size: 1.2em;
+}
+
+.grote-locatie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.grote-locatie .big-img {
+    width: 100%;
+    height: auto;
+}
+
+.locatie-info {
+    width: 100%;
+    text-align: center;
+}
+
+.locatie-naam {
+    text-align: center;
+}
+
+.locatie-beschrijving {
+    width: 100%;
+    text-align: center;
+}
+
+.locaties {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.locaties {
+    grid-template-columns: 1fr 1fr;
+}
+}
