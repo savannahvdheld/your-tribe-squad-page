@@ -105,29 +105,33 @@ position: relative;
 
 /*start visitekaartjes css*/
 
-
-
+/*section met de class .mixed hier roep ik de unordered list aan om een grid daarin te creeëren */
 .mixed ul{
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
     padding: 0 5%;
+    margin-bottom: 400%;
     
 }
-@media screen and (min-width: 801px){
+
+/*roep de unordered list aan om de grid volgorde te veranderen als het scherm groter is dan 800px*/
+@media screen and (min-width: 800px){
    .mixed ul{
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     margin-bottom: 0;
     }
 }
 
-@media screen and (max-width: 301px){
+/*roep de unordered list aan om de grid volgorde te veranderen als het scherm kleiner is dan 300px*/
+@media screen and (max-width: 300px){
    .mixed ul{
      grid-template-columns: 1fr 1fr;
     }
 }
 
-
+/*styling van de grid in de a element van de unordered list*/
 .visitcards img {
     grid-column-start: 2;
     grid-row-start: 2;
@@ -142,6 +146,8 @@ position: relative;
     border-top-left-radius: 4%;
     border-top-right-radius: 4%;
     border-bottom: 0.1em solid #716FB7;
+    align-self: start;
+    font-weight: bold;
 }
 .visitcards .knoppen{
     position: relative;
@@ -161,6 +167,7 @@ position: relative;
     right: 40%;
 }
 
+/*styling van de grid lijst in het a element */
 .visitcards a{
     display: grid;
     grid-template-rows: 10% 1fr;
@@ -173,9 +180,11 @@ position: relative;
     border: 0.2em solid #716FB7;
     border-radius: 4%;
     box-shadow: 0.4vw 0.4vw #716FB7;
+    transition: 0.5s;
     
 
-
+    /*animatie aanmaken door de viewport van de website dat doe ik door 
+    animation timeline en de view aantevragen en daarin een animation range te geven waarin die animatie start*/
     animation: movetoGrid linear both;
     animation-timeline: view();
     animation-fill-mode: both;
@@ -183,6 +192,14 @@ position: relative;
 
 }
 
+.visitcards a:hover {
+    width: 95%;
+    height: 95%;
+    transition: 0.5s;
+}
+
+/*viewport animation met keyframes en specifieke procenten roep hem aan via de animation en dan de naam van die animation
+hierin is dat movetoGrid*/
 @keyframes movetoGrid {
     0% {
         opacity: 0;
@@ -233,6 +250,10 @@ position: relative;
             scale(1);
     }
 }
+
+/*roep specifieke elementen aan om ze aan te passen zoals 
+de eerste 4 visite kaartjes will ik niet geanimeerd hebben dus dan gebruik ik gewoon animation none
+en de 2de kaart/nth-of-type(2) wil ik aan het einde van mijn eerste row zetten dus dan gebruik ik -1 / -3*/
 .visitcards a:nth-of-type(1){
     animation: none;
     opacity: 1;
@@ -247,7 +268,16 @@ position: relative;
     animation: none;
     opacity: 1;
     transform: none;
+    text-align: center;
 }
+.visitcards a:nth-of-type(2) p{
+    grid-column-start: 2;
+    color: #726DB6;
+    align-self: center;
+    font-weight: bold;
+    font-size: 100%;
+}
+
 .visitcards a:nth-of-type(3){
     animation: none;
     opacity: 1;
@@ -271,5 +301,5 @@ position: relative;
 
 /* footer */
 footer{
-    margin-top: 65%;
+    margin-bottom: 65%;
 }
