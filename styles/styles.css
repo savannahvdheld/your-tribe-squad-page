@@ -92,6 +92,16 @@ position: relative;
     align-self: center;
 }
 
+.popup .Balkje{
+    position: relative;
+    grid-column-start: 1;
+    grid-row: 2;
+    width: 200%;
+    left: 151%;
+    bottom: -40%;
+    align-self: center;
+}
+
 
 /*start visitekaartjes css*/
 
