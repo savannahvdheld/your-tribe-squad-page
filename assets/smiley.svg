@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.23 234.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0bbd2;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        fill: #f8df6e;
+      }
+    </style>
+  </defs>
+  <g id="Laag_6" data-name="Laag 6">
+    <g>
+      <rect class="cls-2" x="68.89" width="82.67" height="13.78"/>
+      <rect class="cls-2" x="151.56" y="13.78" width="27.56" height="13.77"/>
+      <rect class="cls-2" x="41.34" y="13.78" width="27.55" height="13.77"/>
+      <rect class="cls-2" x="27.56" y="27.55" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="179.12" y="27.55" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="13.78" y="41.33" width="13.78" height="27.56"/>
+      <rect class="cls-2" x="192.9" y="41.33" width="13.78" height="27.56"/>
+      <rect class="cls-2" x="68.89" y="68.89" width="13.78" height="27.56"/>
+      <rect class="cls-2" x="137.78" y="68.89" width="13.78" height="27.56"/>
+      <path class="cls-3" d="M192.9,68.89v-27.56h-13.78v-13.78h-27.56v-13.77h-82.67v13.77h-27.55v13.78h-13.78v27.56h-13.78v82.67h13.78v27.55h13.78v13.78h27.55v13.78h82.67v-13.78h27.56v-13.78h13.78v-27.55h13.78v-82.67h-13.78ZM137.78,68.89h13.78v27.56h-13.78v-27.56ZM68.89,68.89h13.78v27.56h-13.78v-27.56ZM165.34,151.56h-13.78v13.78h-13.78v13.77h-55.11v-13.77h-13.78v-13.78h-13.77v-27.56h13.77v27.56h13.78v13.78h55.11v-13.78h13.78v-27.56h13.78v27.56Z"/>
+      <rect class="cls-1" x="55.12" y="206.67" width="13.77" height="13.78"/>
+      <rect class="cls-1" x="68.89" y="220.45" width="82.67" height="13.78"/>
+      <rect class="cls-1" x="151.56" y="206.67" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="165.34" y="206.67" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="206.68" y="55.11" width="13.77" height="13.78"/>
+      <rect class="cls-1" x="206.68" y="41.33" width="13.77" height="13.78"/>
+      <rect class="cls-1" x="192.9" y="27.55" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="41.34" y="206.67" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="179.12" y="13.78" width="13.78" height="13.77"/>
+      <rect class="cls-1" x="220.45" y="68.89" width="13.78" height="82.67"/>
+      <rect class="cls-2" x="206.68" y="68.89" width="13.77" height="82.67"/>
+      <rect class="cls-1" x="206.68" y="151.56" width="13.77" height="27.55"/>
+      <rect class="cls-2" x="192.9" y="151.56" width="13.78" height="27.55"/>
+      <rect class="cls-1" x="192.9" y="179.11" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="179.12" y="179.11" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="179.12" y="192.89" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="151.56" y="192.89" width="27.56" height="13.78"/>
+      <rect class="cls-2" x="151.56" y="137.78" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="151.56" y="124" width="13.78" height="13.78"/>
+      <rect class="cls-1" x="151.56" width="27.56" height="13.78"/>
+      <rect class="cls-2" x="137.78" y="151.56" width="13.78" height="13.78"/>
+      <rect class="cls-2" y="68.89" width="13.78" height="82.67"/>
+      <rect class="cls-2" x="13.78" y="151.56" width="13.78" height="27.55"/>
+      <rect class="cls-1" x="27.56" y="192.89" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="27.56" y="179.11" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="41.34" y="192.89" width="27.55" height="13.78"/>
+      <rect class="cls-2" x="68.89" y="206.67" width="82.67" height="13.78"/>
+      <rect class="cls-2" x="55.12" y="137.78" width="13.77" height="13.78"/>
+      <rect class="cls-2" x="68.89" y="151.56" width="13.78" height="13.78"/>
+      <rect class="cls-2" x="82.67" y="165.34" width="55.11" height="13.77"/>
+      <rect class="cls-2" x="55.12" y="124" width="13.77" height="13.78"/>
+    </g>
+  </g>
+</svg>

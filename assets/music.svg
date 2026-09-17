@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 339.81 316.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e0bbd2;
+      }
+
+      .cls-2 {
+        fill: #fcf3f6;
+      }
+    </style>
+  </defs>
+  <g id="Laag_3" data-name="Laag 3">
+    <g>
+      <rect x="271.85" y="55.11" width="13.59" height="192.87"/>
+      <rect x="13.59" y="13.78" width="13.6" height="13.78"/>
+      <rect x="27.19" width="271.85" height="13.78"/>
+      <rect x="299.04" y="13.78" width="13.59" height="13.78"/>
+      <rect x="312.63" y="27.56" width="13.59" height="13.77"/>
+      <rect x="271.85" y="41.33" width="13.59" height="13.78"/>
+      <rect x="54.37" y="41.33" width="217.48" height="13.78"/>
+      <polygon class="cls-2" points="40.78 27.56 40.78 289.31 27.19 289.31 27.19 275.54 13.59 275.54 13.59 27.56 40.78 27.56"/>
+      <polygon class="cls-2" points="312.63 110.22 312.63 275.54 299.04 275.54 299.04 289.31 40.78 289.31 40.78 261.76 285.44 261.76 285.44 110.22 312.63 110.22"/>
+      <rect class="cls-2" x="27.19" y="13.78" width="271.85" height="13.78"/>
+      <rect class="cls-2" x="40.78" y="27.56" width="271.85" height="13.77"/>
+      <rect class="cls-2" x="285.44" y="41.33" width="27.19" height="68.89"/>
+      <rect class="cls-1" x="299.04" width="13.59" height="13.78"/>
+      <rect class="cls-1" x="312.63" y="13.78" width="13.59" height="13.78"/>
+      <rect class="cls-1" x="326.22" y="27.56" width="13.59" height="13.77"/>
+      <rect class="cls-1" x="326.22" y="41.33" width="13.59" height="234.21"/>
+      <rect x="312.63" y="261.76" width="13.59" height="13.78"/>
+      <rect x="312.63" y="41.33" width="13.59" height="220.43"/>
+      <rect class="cls-1" x="312.63" y="275.54" width="13.59" height="13.77"/>
+      <rect x="299.04" y="275.54" width="13.59" height="13.77"/>
+      <rect class="cls-1" x="299.04" y="289.31" width="13.59" height="13.78"/>
+      <rect x="122.33" y="110.22" width="27.19" height="13.77"/>
+      <rect x="149.52" y="96.44" width="40.78" height="13.78"/>
+      <rect x="190.3" y="82.66" width="27.18" height="13.78"/>
+      <rect x="108.74" y="110.22" width="13.59" height="13.77"/>
+      <path class="cls-1" d="M54.37,55.11v192.87h217.48V55.11H54.37ZM81.56,179.1h27.18v-68.88h40.78v-13.78h40.78v-13.78h40.77v123.99h-40.77v-41.33h27.18v-68.88h-27.18v13.78h-40.78v13.77h-27.19v96.44h-40.77v-41.33Z"/>
+      <rect x="271.85" y="247.98" width="13.59" height="13.78"/>
+      <rect x="54.37" y="247.98" width="217.48" height="13.78"/>
+      <rect x="81.56" y="179.1" width="40.77" height="41.33"/>
+      <rect x="217.48" y="82.66" width="13.59" height="82.66"/>
+      <rect x="190.3" y="165.32" width="40.77" height="41.33"/>
+      <rect x="108.74" y="123.99" width="13.59" height="55.11"/>
+      <rect y="27.56" width="13.59" height="13.77"/>
+      <rect y="41.33" width="13.59" height="234.21"/>
+      <rect x="13.59" y="275.54" width="13.6" height="13.77"/>
+      <rect x="27.19" y="289.31" width="13.59" height="13.78"/>
+      <rect x="40.78" y="289.31" width="258.26" height="13.78"/>
+      <rect x="40.78" y="41.33" width="13.59" height="13.78"/>
+      <rect x="40.78" y="247.98" width="13.59" height="13.78"/>
+      <rect x="40.78" y="55.11" width="13.59" height="192.87"/>
+      <rect class="cls-1" x="40.78" y="303.09" width="258.26" height="13.78"/>
+    </g>
+  </g>
+</svg>
