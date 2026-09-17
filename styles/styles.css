@@ -112,6 +112,7 @@ position: relative;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5%;
     padding: 0 5%;
+    margin-bottom: 300%;
     
 }
 
@@ -119,6 +120,7 @@ position: relative;
 @media screen and (min-width: 800px){
    .mixed ul{
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     margin-bottom: 0;
     }
 }
 
@@ -299,5 +301,5 @@ en de 2de kaart/nth-of-type(2) wil ik aan het einde van mijn eerste row zetten d
 
 /* footer */
 footer{
-    margin-top: 65%;
+    margin-bottom: 65%;
 }
