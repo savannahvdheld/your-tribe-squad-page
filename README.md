@@ -7,8 +7,9 @@ Daarom hebben we besloten om een one pager te maken met een grid style voor de v
 
 # Code talen/Kenmerken
 Voor het visitekaartje aspect van de website hebben we gebruik gemaakt van een grid met daarin a elementen. Hierdoor, als je klikt op de hele lijst, dan ga je naar de visitekaartjes en er zit ook een animatie in die gaat via de viewport. Hierbij animeert dan de grid op de pagina met een animatie via keyframes.
-De website is responsive voor zowel desktop als op je telefoon.
+Als je klikt op een van de avatars in de visitekaartjes, kom je uit bij de URL van dat kaartje.
 
+De website is responsive voor zowel desktop als op je telefoon.
 Voor deze website hebben we gebruik gemaakt van HTML, CSS en Javascript.
 
 # font
