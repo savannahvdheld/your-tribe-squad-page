@@ -6,6 +6,90 @@ body {
 
     /*start styling hoofdtekst*/
 }
+/*header rabia*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 5%;
+}
+
+.welkom {
+    width: 30%;
+    height:auto;
+}
+
+.intro-iconen {
+    display: flex;
+    align-items: center;
+    gap:2em;
+}
+
+.intro-iconen img {
+    width: 6em;
+    height: auto;
+    animation: zweven 5s ease-in-out infinite;
+}
+
+.smiley {
+    transform: translateY(-15px);
+}
+
+.document {
+    transform: translateY(15PX);
+}
+
+.music {
+    transform: translateY(-10px);
+}
+
+.cd {
+    transform: translateY(25px);
+}
+
+.calendar {
+    transform: translateY(-10px);
+}
+
+.toon-locaties {
+    transform: translateY(10px);
+    width: 7em;
+}
+
+@keyframes zweven {
+    0%, 100% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -12px;
+    }
+}
+
+.smiley {
+    animation-delay: 0s;
+}
+.document {
+    animation-delay: -1s;
+}
+
+.music {
+    animation-delay: -2s;
+}
+
+.cd {
+    animation-delay: -0.5s;
+}
+.calendar {
+    animation-delay: -1.5s;
+}
+
+.toon-locaties {
+    animation-delay: -2.5s;
+}
+
 h2 {
     font-size: 2em;
     text-align: center;
