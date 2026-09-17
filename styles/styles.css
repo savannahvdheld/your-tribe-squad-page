@@ -107,6 +107,7 @@ display: grid;
 grid-template-columns: 2fr, 2fr 2fr;
 gap: 4 px;
 }
+
   /* styling van de img in de popup */
 .popup img{
     width: 80%;
@@ -185,7 +186,7 @@ padding: 5%;
 position: relative;
     grid-column-start: 4;
     grid-row-start: 1;
-    width: 20%;
+    width: 15%;
     align-self: center;
     border: 0;
 }
