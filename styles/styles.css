@@ -99,7 +99,7 @@ header {
     padding: 0;
     cursor: pointer;
 }
-
+/*start styling h elementen */
 h2 {
     font-size: 2em;
     text-align: center;
@@ -131,10 +131,11 @@ h3 {
     overflow-y: auto;
     z-index: 1000;
 }
-
+/*hierdoor gaat de popup open met een klik*/
 .popup.open {
     display: block;
 }
+/* hier staat de styling voor de fotos van de Amstel Locaties*/
 
 .grote-locatie {
     display: grid;
@@ -217,7 +218,7 @@ h3 {
 .locaties li {
     text-align: center;
 }
-
+/* hier staan de afbeeldingen van de locaties op de Amstel Campus*/
 .locaties .thumb {
     width: 100%;
     height: auto;
@@ -261,6 +262,7 @@ h3 {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
 .visitcards em{
     font-family: "Coral Pixels", sans-serif;
     grid-column: 1 / -1;

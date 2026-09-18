@@ -1,16 +1,22 @@
 
 # Squad page
 # Beschrijving
-We hebben gekozen voor deze retro style vanwege dat het vrijwel over eenkomt met het project dat we moesten maken we wilde de style iets meer speels maken maar nog steeds makkelijk te begrijpen en te navigeren.
+We hebben gekozen voor deze retro style vanwege dat het vrijwel overeenkomt met het project dat we moesten maken. We wilde de style iets meer speels maken maar nog steeds makkelijk te begrijpen en te navigeren.
 
-Daarom hebben we besloten om een one pager te maken met een grid style voor de visitekaartjes waar je makkelijk doorheen kan scrollen en de locaties een beetje aan het begin ernaast hebben gezet met een pop up want het belangerijkste in ons website zijn de visitekaartjes.
+Daarom hebben we besloten om een one pager te maken met een grid style voor de visitekaartjes, waar je makkelijk doorheen kan scrollen. De locaties hebben we een beetje aan het begin ernaast gezet met een pop up, want het belangrijkste in ons website zijn de visitekaartjes.
 
 # Code talen/Kenmerken
-voor het visitekaartje aspect van de website hebben we gebruik gemaakt van een grid met daarin a elementen zodat als je op de hele lijst klikt dat je naar de visitekaartje gaat er zit ook een animatie in die gaat via de viewport en dan animeert de grid op de pagina met een animatie via keyframes.
+Voor het visitekaartje aspect van de website hebben we gebruik gemaakt van een grid met daarin a elementen. Hierdoor, als je klikt op de hele lijst, dan ga je naar de visitekaartjes en er zit ook een animatie in die gaat via de viewport. Hierbij animeert dan de grid op de pagina met een animatie via keyframes.
+Als je klikt op een van de avatars in de visitekaartjes, kom je uit bij de URL van dat kaartje.
+
+De website is responsive voor zowel desktop als op je telefoon.
+Voor deze website hebben we gebruik gemaakt van HTML, CSS en Javascript.
 
 # font
-alle gebruikte fonts:
--
+Alle gebruikte fonts:
+
+-Coral Pixels
+https://fonts.adobe.com/fonts/coral-pixels
 
 # Bronnen
 Link naar onze [CANVAS](https://www.figma.com/design/waCTQ2Q2SnXZo4gVy9TbvM/Squad-Page?node-id=0-1&t=I1Mf58e5t1360rsr-1)
